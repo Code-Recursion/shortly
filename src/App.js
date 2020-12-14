@@ -17,6 +17,11 @@ const App = (props) => {
 
   // preventing default submit
   const handleSubmit = (event) => {
+    console.log("test")
+    if (longUrl === "") {
+      console.log("WTF");
+    } else console.log("cool");
+
     event.preventDefault();
 
     const url =
@@ -36,30 +41,33 @@ const App = (props) => {
   return (
     <>
       <Nav />
-
       <Hero />
-      <div className="input-container">
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            value={longUrl}
-            onChange={(event) =>
-              setLongUrl(event.target.value)
-            }
-            placeholder="Shorten a link here..."
-            required
-          />
-          <button
-            type="submit"
-            className="btn-shorten"
-          >
-            Shorten it!
-          </button>
-          <div>
-            {!loading &&
-              `shorted link : ${data.result.short_link}`}
+      <div className="input-wrapper">
+        <div className="input-container">
+          <div className="box">
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                value={longUrl}
+                onChange={(event) =>
+                  setLongUrl(event.target.value)
+                }
+                placeholder="Shorten a link here..."
+                required
+              />
+              <button
+                type="submit"
+                className="btn-shorten"
+              >
+                Shorten it!
+              </button>
+              <div>
+                {!loading &&
+                  `shorted link : ${data.result.short_link}`}
+              </div>
+            </form>
           </div>
-        </form>
+        </div>
       </div>
       <Footer />
     </>

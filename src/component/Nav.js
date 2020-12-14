@@ -13,10 +13,10 @@ const Nav = () => {
   return (
     <>
       <div className="">
-        <div class="topnav" id="myTopnav">
+        <div className="topnav" id="myTopnav">
           <a
             href="home"
-            class="active brand brand-logo"
+            className="active brand brand-logo"
           >
             Shorty
           </a>
@@ -24,16 +24,16 @@ const Nav = () => {
           <a href="#">Pricing</a>
           <a href="#">Resources</a>
           <div className="nav-btn-container">
-            <a href="#about">
+            <a href="#">
               <button>Login</button>
             </a>
-            <a href="#about">
+            <a href="#">
               <button>Singn Up</button>
             </a>
           </div>
           <a
             href="javascript:void(0);"
-            class="icon"
+            className="icon"
             onClick={() => toggleNav()}
           >
             <img
