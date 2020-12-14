@@ -18,7 +18,7 @@ const Nav = () => {
             href="home"
             className="active brand brand-logo"
           >
-            Shorty
+            Shortly
           </a>
           <a href="#">Features</a>
           <a href="#">Pricing</a>
