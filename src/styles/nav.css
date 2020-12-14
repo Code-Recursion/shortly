@@ -1,6 +1,7 @@
 .topnav {
   background-color: #fff !important;
   overflow: hidden;
+  padding: 2em;
 }
 
 /* Style the links inside the navigation bar */
@@ -15,9 +16,9 @@
 }
 
 .brand {
+  padding-left: 2rem !important;
+  font-size: 1.8rem !important;
   font-weight: bolder;
-  display: contents;
-  padding: 6px;
 }
 
 .nav-btn-container {
@@ -39,16 +40,12 @@
   display: none;
 }
 
-button {
-  color: white;
-  background: #2acfcf;
-  border-radius: 3rem;
-  padding: 0.5rem 1rem;
-  text-align: center;
-  border: oldlace;
+#brand-logo {
+  padding: 0 2rem !important;
 }
-button:hover {
-  opacity: 0.5;
+
+.brand-logo {
+  padding: 0 2rem !important;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */

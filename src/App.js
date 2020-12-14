@@ -49,7 +49,10 @@ const App = (props) => {
             placeholder="Shorten a link here..."
             required
           />
-          <button type="submit">
+          <button
+            type="submit"
+            className="btn-shorten"
+          >
             Shorten it!
           </button>
           <div>

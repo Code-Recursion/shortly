@@ -14,12 +14,15 @@ const Nav = () => {
     <>
       <div className="">
         <div class="topnav" id="myTopnav">
-          <a href="#home" class="active">
-            <h2 className="brand">Shorty</h2>
+          <a
+            href="home"
+            class="active brand brand-logo"
+          >
+            Shorty
           </a>
-          <a href="#contact">Features</a>
-          <a href="#about">Pricing</a>
-          <a href="#news">Resources</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resources</a>
           <div className="nav-btn-container">
             <a href="#about">
               <button>Login</button>
@@ -33,7 +36,10 @@ const Nav = () => {
             class="icon"
             onClick={() => toggleNav()}
           >
-            <img src="https://img.icons8.com/android/24/000000/menu.png" />
+            <img
+              className=""
+              src="https://img.icons8.com/android/24/000000/menu.png"
+            />
           </a>
         </div>
       </div>

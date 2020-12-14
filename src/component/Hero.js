@@ -1,19 +1,34 @@
 import React from "react";
 import "../styles/hero.css";
-
+import HeroIcon from "../resources/images/illustration-working.svg";
 const Hero = () => {
   return (
     <>
-      <div className="row">
-        <div className="column">
-          <h2>Column 1</h2>
-          <p>Some text..</p>
+      <section>
+        <div className="row">
+          <div className="column">
+            <h1 className="hero-header">
+              More than just Shorter Links
+            </h1>
+            <p className="hero-text">
+              Build your brand's recognition and
+              get detailed insights on how your
+              links are preforming
+            </p>
+            <button className="get-started">
+              Get Started
+            </button>
+          </div>
+          <div className="column">
+            <div className="image">
+              <img
+                className="hero-img floating-anim"
+                src={HeroIcon}
+              />
+            </div>
+          </div>
         </div>
-        <div className="column">
-          <h2>Column 2</h2>
-          <p>Some text..</p>
-        </div>
-      </div>
+      </section>
     </>
   );
 };

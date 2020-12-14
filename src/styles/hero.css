@@ -1,4 +1,9 @@
+section {
+  height: 60vh;
+}
+
 .column {
+  padding: 0 4rem !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +21,36 @@
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+.hero-header {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 4rem;
+}
+
+.get-started {
+  margin-right: auto;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.floating-anim {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
