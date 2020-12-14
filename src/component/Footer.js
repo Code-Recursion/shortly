@@ -30,35 +30,32 @@ const Footer = () => {
         <p>Contact</p>
       </div>
       <div class="column-footer">
-        <h4>Column 5</h4>
         <div class="footer-social-icons">
           <ul class="social-icons">
             <li>
               <a href="" class="social-icon">
-                {" "}
-                <i class="fa fa-twitter">
+                <i class="fa fa-icon">
                   <img src={fb} />
                 </i>
               </a>
             </li>
             <li>
               <a href="" class="social-icon">
-                <i class="fa fa-rss">
+                <i class="fa fa-icon">
                   <img src={twitter} />
                 </i>
               </a>
             </li>
             <li>
               <a href="" class="social-icon">
-                <i class="fa fa-rss">
+                <i class="fa fa-icon">
                   <img src={pint} />
                 </i>
               </a>
             </li>
             <li>
               <a href="" class="social-icon">
-                {" "}
-                <i class="fa fa-facebook">
+                <i class="fa fa-icon">
                   <img src={insta} />
                 </i>
               </a>
