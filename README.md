@@ -1,7 +1,7 @@
 ## Shortly [Under Development]
 live - https://shortly-live.web.app/
 
-build with Pure HTML/CSS/React without any css framework used.
+build with Pure HTML/CSS/JS/React without any css framework used.
 
 `## Screen Shot`
 <br/>
