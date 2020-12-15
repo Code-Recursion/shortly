@@ -3,6 +3,7 @@ import axios from "axios";
 import Nav from "./component/Nav";
 import Hero from "./component/Hero";
 import Footer from "./component/Footer";
+import Stats from "./component/Stats";
 import "./App.css";
 
 const App = (props) => {
@@ -69,6 +70,7 @@ const App = (props) => {
           </div>
         </div>
       </div>
+      <Stats/>
       <Footer />
     </>
   );

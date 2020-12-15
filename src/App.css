@@ -65,7 +65,14 @@ input:focus {
   }
 
   form input {
-    width:90%;
+    width: 90%;
     margin-bottom: 0.2rem;
+  }
+}
+
+@media (min-width: 786px) {
+  .input-wrapper {
+    position: relative;
+    top: 2.5rem;
   }
 }
